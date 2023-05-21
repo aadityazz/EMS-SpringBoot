@@ -1,4 +1,4 @@
-package net.javaguides.springboot.controller;
+package com.example.employeemanagementsystem.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import net.javaguides.springboot.model.Employee;
-import net.javaguides.springboot.service.EmployeeService;
+import com.example.employeemanagementsystem.model.Employee;
+import com.example.employeemanagementsystem.service.EmployeeService;
 
 @Controller
 public class EmployeeController {
